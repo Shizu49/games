@@ -1,4 +1,4 @@
-  .entry-text h2, .mkj {text-align: center;}
+  .entry-text h2, .mkj { text-align: center; }
   .wrap {
     max-width:480px;
     margin:0 auto 3em;
@@ -67,7 +67,6 @@
 
 /* Hint -------*/
   details {
-    padding: 0 10px;
     transition: max-height 0.3s, padding 0.3s;
     overflow: hidden;
     border: 1px solid #ffffff36;
@@ -94,19 +93,19 @@
     border-radius: 5px;
   }
   .jel { vertical-align:-3px; margin:0 4px; }
-  .babo {
-    display:block;
+.babo {
+	display:block;
 	position: relative;
-    margin: 10px 0 0 15px;
-    padding: 0.5em 10px;
-    min-width: 120px;
-    max-width: 100%;
-    background: #ffffff1c;
-    box-sizing: border-box;
-    border-radius: 10px;
-    align-items: center;
-  }
-  .babo:before {
+	margin: 10px 0 0 15px;
+	padding: 0.5em 10px;
+	min-width: 120px;
+	max-width: 100%;
+	background: #ffffff1c;
+	box-sizing: border-box;
+	border-radius: 10px;
+	align-items: center;
+}
+.babo:before {
     content: "";
     position: absolute;
     top: 50%;
