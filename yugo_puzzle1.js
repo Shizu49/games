@@ -6,12 +6,10 @@ document.addEventListener("click", (event) => {
         target.closest("details")?.removeAttribute("open");
     }
 });
-document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("details").forEach(details => {
-        details.addEventListener("toggle", () => {
-            details.setAttribute("data-visited", "true");
-        });
-    });
+document.addEventListener("toggle", (event) => {
+    if (event.target.tagName === "DETAILS") {
+        event.target.dataset.visited = "true";
+    }
 });
 // thumbクリックでYoutube読込
 document.querySelectorAll(".thumb").forEach(thumb => 
