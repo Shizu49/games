@@ -6,6 +6,7 @@ document.addEventListener("click", (event) => {
         target.closest("details")?.removeAttribute("open");
     }
 });
+// <summary> visited
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("details").forEach(details => {
         details.addEventListener("toggle", () => {
@@ -13,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
-// thumbクリックでYoutube読込
+// thumb click -> loading Youtube
 document.querySelectorAll(".thumb").forEach(thumb => 
     thumb.addEventListener("click", () => {
         const player = thumb.nextElementSibling;
@@ -23,7 +24,7 @@ document.querySelectorAll(".thumb").forEach(thumb =>
         }
     })
 );
-// Linkグラデ
+// Link Gradation
 const gradients = {
     ".mkj": [154, 89.4, 18.4, 309, 22.5, 44.5, "+"],
     ".mzm": [275, 45.6, 31, 313, 22.5, 37.5, "+"],
