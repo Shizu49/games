@@ -74,7 +74,7 @@ details {
 	position: relative;
 }
 details[open] { max-height: 100vh; padding: 10px; }
-details[data-visited="true"] summary { color: #ff9bbf; }
+details[data-visited="true"] summary { color: #ffd1cd; }
 details .babo:nth-of-type(2) { margin-left:2em; }
 details .babo:nth-of-type(3) { margin-left:3em; }
 details .babo:nth-of-type(4) { margin-left:1em; }
