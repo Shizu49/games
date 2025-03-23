@@ -140,7 +140,11 @@ img.zukai { margin-top:10px; }
 }
 .boya { background: #fff; }
 .boya:hover { background:none; cursor:default; }
-
+.senn {
+	width: 100%;
+	border-bottom: 1px solid #ffffff36;
+	margin: 20px 0;
+}
 @media (hover: none) {
 	.yg_nv { margin:5em 0; }
 	details p { font-size:15px; }
