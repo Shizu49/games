@@ -61,9 +61,6 @@
     color:#ffc869;
     rotate: -10deg;
   }
-  @media (hover: none) {
-    .yg_nv { margin:5em 0; }
-  }
 
 /* Hint -------*/
 details {
@@ -143,3 +140,8 @@ img.zukai { margin-top:10px; }
 }
 .boya { background: #fff; }
 .boya:hover { background:none; cursor:default; }
+
+@media (hover: none) {
+	.yg_nv { margin:5em 0; }
+	details p { font-size:15px; }
+}
