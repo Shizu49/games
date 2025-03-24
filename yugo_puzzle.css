@@ -140,6 +140,9 @@ img.zukai { margin-top:10px; }
 }
 .boya { background: #fff; }
 .boya:hover { background:none; cursor:default; }
+.dboya { filter: brightness(0) invert(1); }
+.dboya:hover { filter: brightness(1); }
+
 @media (hover: none) {
 	.yg_nv { margin:5em 0; }
 	details p { font-size:15px; }
