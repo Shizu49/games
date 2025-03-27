@@ -91,7 +91,7 @@ img.zukai { margin-top:10px; }
 	padding: 0.5em 10px;
 	min-width: 120px;
 	max-width: 100%;
-	background: #ffffff1c;
+	background: #524439;
 	box-sizing: border-box;
 	border-radius: 10px;
 	align-items: center;
@@ -103,13 +103,12 @@ img.zukai { margin-top:10px; }
 	left: -24px;
 	margin-top: -12px;
 	border: 12px solid transparent;
-	border-right: 12px solid #ffffff1c;
+	border-right: 12px solid #524439;
 }
 .babo p {
 	margin: 0;
 	padding: 0;
 	line-height: 1.8;
-	/*font-size: 15px;*/
 }
 .close-details {
 	position: absolute;
