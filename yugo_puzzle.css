@@ -119,6 +119,7 @@ img.zukai { margin-top:10px; }
 	clip-path: polygon(0 100%, 100% 100%, 0 0);
 	background-color:#055935;
 	color:#acffa3;
+	border-bottom: 0;
 }
 .close-details:hover{ background-color: #f46013; }
 .close-details.right{
