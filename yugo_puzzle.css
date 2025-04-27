@@ -58,6 +58,7 @@
     line-height: 1.1;
     color:#ffc869;
     rotate: -10deg;
+    font-weight:700;
   }
 
 /* Hint -------*/
@@ -146,4 +147,3 @@ img.zukai { margin-top:10px; }
 .yellow { color:#ffaf17; }
 .red { color:#f45a45; }
 .blue { color:#319dff; }
-.yellow, .red, .blue, .naiyo { font-weight:700; }
