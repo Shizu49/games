@@ -83,7 +83,7 @@ details > *:nth-last-child(3) { margin-bottom:50px; }
 	border-radius: 5px;
 }*/
 .jel { margin:0 4px; vertical-align: top; }
-.jel-s { vertical-align: -3px; }
+.jel-s { margin:0 4px; }
 img.zukai { margin-top:10px; }
 .babo {
 	display:block;
